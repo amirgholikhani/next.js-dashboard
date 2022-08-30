@@ -1,0 +1,34 @@
+$primary: #0b7aff;
+$primaryLight: #469bff;
+$secondary: #666565;
+$error: #e03535;
+$success: #07b200;
+$contrast: #fff;
+$main: #111827;
+$green: #10b981;
+$xs: 0;
+$sm: 600px;
+$md: 900px;
+$lg: 1200px;
+$xl: 1536px;
+
+@mixin deviceDown($breakpoint) {
+  @media only screen and (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin deviceUp($breakpoint) {
+  @media only screen and (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+:export {
+  primary: $primary;
+  primaryLight: $primaryLight;
+  secondary: $secondary;
+  contrast: $contrast;
+  success: $success;
+  error: $error;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  width: 100%;
+  & > div:first-child {
+    margin-bottom: 3rem;
+    & h4 {
+      text-align: center;
+    }
+  }
+  & input[id="input-mobile"] {
+    direction: ltr;
+  }
+}
+
+.wrapperFullHeight {
+  height: 100%;
+}
+
+.formWrapper {
+  width: 50%;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.imageWrapper {
+  height: 100%;
+  width: 100%;
+  & > span {
+    height: 100% !important;
+  }
+}
+
+.image {
+  height: 100% !important;
+  width: 100% !important;
+}

@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+
+  & h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.wrapperInner {
+  padding: 20px;
+}
+
+.wrapperFullHeight {
+  height: 100%;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.filterActive {
+  background-color: rgba(0, 0, 0, 0.04) !important;
+}

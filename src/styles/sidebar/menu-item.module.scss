@@ -1,0 +1,16 @@
+@import '../theme.module.scss';
+
+.wrapper {
+  padding: 9px 24px;
+  cursor: pointer;
+  &:hover {
+    background-color: #ffffff14;
+    border-radius: 8px;
+  }
+}
+
+.active {
+  background-color: #ffffff14;
+  color: $green;
+  border-radius: 8px;
+}

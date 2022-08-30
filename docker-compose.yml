@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+
+  reservation_next:
+    image: blueinnovatorsteam.ir:5080/restora-admin:latest
+    container_name: restora_reservation_next
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:3000"
+    environment:
+      - "NEXT_PUBLIC_API_URL="

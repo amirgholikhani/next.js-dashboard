@@ -1,0 +1,29 @@
+@import './theme.module.scss';
+
+.wrapper {
+  height: 100%;
+}
+
+.containerWrapper {
+  height: 100%;
+}
+
+.contentWrapper {
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  overflow-y: auto;
+  padding: 30px;
+}
+
+.sidebar {
+  @include deviceDown($lg) {
+    display: none;
+  }
+}
+
+.drawer {
+  width: 300px;
+}
